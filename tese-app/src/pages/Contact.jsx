@@ -49,7 +49,7 @@ const Contact = () => {
           <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-lg">
             <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
               <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0">
-		<img src="**/MinhaTeseInteliEduca/SanvalEbert.jpg**" alt="Foto do Doutorando" className="w-full h-full object-cover" />
+		<img src="/MinhaTeseInteliEduca/SanvalEbert.jpg" alt="Foto do Doutorando" className="w-full h-full object-cover" />
               </div>
               <div className="flex-1 text-center md:text-left">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Sanval Ebert de Freitas Santos</h3>
@@ -99,7 +99,7 @@ const Contact = () => {
           <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-lg">
             <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
               <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0">
-		<img src="**/MinhaTeseInteliEduca/HugoSaba.jpg**" alt="Prof. Dr. Hugo Saba Pereira Cardoso" className="w-full h-full object-cover" />
+		<img src="/MinhaTeseInteliEduca/HugoSaba.jpg" alt="Prof. Dr. Hugo Saba Pereira Cardoso" className="w-full h-full object-cover" />
               </div>
               <div className="flex-1 text-center md:text-left">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Prof. Dr. Hugo Saba Pereira Cardoso</h3>
