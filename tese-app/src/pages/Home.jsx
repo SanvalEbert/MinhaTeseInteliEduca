@@ -6,7 +6,7 @@ const Home = () => {
     <div className="min-h-screen bg-gray-100">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 z-0 opacity-20" style={{ backgroundImage: 'url(/1.ImagemdaPrimeiraSessao.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+        <div className="absolute inset-0 z-0 opacity-20" style={{ backgroundImage: `url("/MinhaTeseInteliEduca/1.ImagemdaPrimeiraSessao.jpg")`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 text-center lg:text-left mb-10 lg:mb-0">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
