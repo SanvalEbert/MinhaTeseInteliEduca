@@ -69,16 +69,16 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="mt-4 flex flex-wrap justify-center md:justify-start gap-4">
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 flex items-center">
+                  <a href="https://www.linkedin.com/in/msc-sanval-ebert/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 flex items-center">
                     <Linkedin className="h-5 w-5 mr-1" /> LinkedIn
                   </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 flex items-center">
+                  <a href="https://www.researchgate.net/profile/Sanval-Ebert-De-Santos" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 flex items-center">
                     <Book className="h-5 w-5 mr-1" /> ResearchGate
                   </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 flex items-center">
+                  <a href="https://lattes.cnpq.br/6700242085425421" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 flex items-center">
                     <LinkIcon className="h-5 w-5 mr-1" /> Lattes
                   </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 flex items-center">
+                  <a href="https://orcid.org/my-orcid?orcid=0000-0003-3196-6468" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 flex items-center">
                     <LinkIcon className="h-5 w-5 mr-1" /> Orcid
                   </a>
                 </div>
