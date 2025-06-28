@@ -39,7 +39,7 @@ const ModelPage = () => {
             </div>
             <div className="bg-gray-100 p-6 rounded-lg">
               <img 
-                src="/MetodologiadoEstudo@2x.png" 
+		src={import.meta.env.BASE_URL + 'MetodologiadoEstudo@2x.png'}
                 alt="Metodologia do Estudo" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -54,7 +54,7 @@ const ModelPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="bg-white p-6 rounded-lg">
               <img 
-                src="/MachineLearningeDeepLearning@2x.png" 
+                src={import.meta.env.BASE_URL + 'MachineLearningeDeepLearning@2x.png'} 
                 alt="Taxonomia de Machine Learning e Deep Learning" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -83,7 +83,7 @@ const ModelPage = () => {
           </div>
           <div className="bg-gray-100 p-8 rounded-lg">
             <img 
-              src="/ModelodeAVEAcomIA@2x.png" 
+	      src={import.meta.env.BASE_URL + 'ModelodeAVEAcomIA@2x.png'}
               alt="Modelo de AVEA com IA" 
               className="w-full h-auto rounded-lg shadow-lg"
             />
@@ -102,7 +102,7 @@ const ModelPage = () => {
           </div>
           <div className="bg-white p-8 rounded-lg">
             <img 
-              src="/Fluxograma-ModeloConceitualdeIAemAVEAs@2x.png" 
+              src={import.meta.env.BASE_URL + 'Fluxograma-ModeloConceitualdeIAemAVEAs@2x.png'}
               alt="Fluxograma do Modelo Conceitual de IA em AVEAs" 
               className="w-full h-auto rounded-lg shadow-lg"
             />
@@ -126,7 +126,7 @@ const ModelPage = () => {
           </div>
           <div className="bg-gray-100 p-8 rounded-lg">
             <img 
-              src="/Fluxograma_AplicaçãodeTécnicasdeIAemAVEAs@2x.png" 
+	      src={import.meta.env.BASE_URL + 'Fluxograma_AplicaçãodeTécnicasdeIAemAVEAs@2x.png'} 
               alt="Aplicação de Técnicas de IA em AVEAs" 
               className="w-full h-auto rounded-lg shadow-lg"
             />

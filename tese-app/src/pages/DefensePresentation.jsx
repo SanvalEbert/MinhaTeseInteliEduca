@@ -345,21 +345,21 @@ const DefensePresentation = () => {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                   <a href="https://dabbsvfo.manus.space/artigo-1" className="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <img src="/artigo1_thumb.png" alt="Artigo 1" className="w-full h-48 object-cover rounded-t-lg" />
-                    <div className="p-4 text-center">
+                    <img src={import.meta.env.BASE_URL + 'artigo1_thumb.png'} alt="Artigo 1" className="w-full h-48 object-cover rounded-t-lg" />
+		    <div className="p-4 text-center">
                       <h3 className="text-lg font-bold text-gray-900 mb-2">Artigo 1</h3>
                       <p className="text-gray-600 text-sm">Revisão Sistemática da Literatura</p>
                     </div>
                   </a>
                   <a href="https://dabbsvfo.manus.space/artigo-2" className="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <img src="/artigo2_thumb.png" alt="Artigo 2" className="w-full h-48 object-cover rounded-t-lg" />
+                    <img src={import.meta.env.BASE_URL + 'artigo2_thumb.png'} alt="Artigo 2" className="w-full h-48 object-cover rounded-t-lg" />
                     <div className="p-4 text-center">
                       <h3 className="text-lg font-bold text-gray-900 mb-2">Artigo 2</h3>
                       <p className="text-gray-600 text-sm">Desenvolvimento do Modelo Conceitual</p>
                     </div>
                   </a>
                   <a href="https://dabbsvfo.manus.space/artigo-3" className="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <img src="/artigo3_thumb.png" alt="Artigo 3" className="w-full h-48 object-cover rounded-t-lg" />
+		    <img src={import.meta.env.BASE_URL + 'artigo3_thumb.png'} alt="Artigo 3" className="w-full h-48 object-cover rounded-t-lg" />
                     <div className="p-4 text-center">
                       <h3 className="text-lg font-bold text-gray-900 mb-2">Artigo 3</h3>
                       <p className="text-gray-600 text-sm">Validação do Modelo Conceitual</p>
