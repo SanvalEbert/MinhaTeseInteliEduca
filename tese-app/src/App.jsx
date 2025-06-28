@@ -12,10 +12,13 @@ import References from './pages/References';
 import Contact from './pages/Contact';
 import ModelPage from './pages/ModelPage';
 import DefensePresentation from './pages/DefensePresentation';
+import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+      <ScrollToTop />
       <div className="min-h-screen bg-background">
         <Header />
         <main className="flex-1">
