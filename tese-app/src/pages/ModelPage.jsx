@@ -34,7 +34,8 @@ const ModelPage = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Metodologia do Estudo</h3>
               <p className="text-gray-600 mb-6">
-                A pesquisa foi conduzida em três etapas metodológicas estruturadas: revisão sistemática da literatura, desenvolvimento do modelo com base na abordagem Design Science Research e validação qualitativa com especialistas por meio do método Vali-Quali. Esta abordagem metodológica permitiu identificar lacunas na literatura, desenvolver uma solução estruturada e validar sua aplicabilidade em contextos educacionais reais. A revisão sistemática da literatura, detalhada no Artigo 1, mapeou o estado da arte sobre agentes inteligentes em ambientes virtuais de ensino e aprendizagem, identificando as principais tendências, lacunas e desafios. O desenvolvimento do modelo conceitual, abordado no Artigo 2, seguiu os princípios da Design Science Research, garantindo a criação de um artefato relevante e rigoroso. Por fim, a validação qualitativa com especialistas, apresentada no Artigo 3, utilizou o método Vali-Quali para avaliar a adequação e a pertinência do modelo proposto, coletando feedback valioso para seu aprimoramento.
+                O diagrama ilustra a sequência metodológica adotada para integrar a fundamentação teórica e a construção prática de um artefato orientado à incorporação de inteligência artificial em ambientes virtuais de ensino e aprendizagem. A etapa inicial consistiu em investigação exploratória descritiva estruturada em revisão sistemática de literatura sobre aplicações de IA em AVAs, em análise dos desafios associados à adoção dessas tecnologias e em mapeamento de lacunas conceituais na produção acadêmica. Esse procedimento permitiu caracterizar o estado da arte e fundamentar a proposição de um modelo conceitual preliminar.
+Na fase subsequente, empregou-se a abordagem Design Science Research (DSR) para viabilizar ciclos iterativos de construção, avaliação e refinamento do artefato. No âmbito da pesquisa, o modelo conceitual foi desenvolvido a partir da articulação de fundamentos teóricos de áreas como educação, mineração de dados, inteligência artificial, ambientes educacionais, adequados às especificidades dos AVEAs. O processo de desenvolvimento incluiu a definição de mecanismos de interação, a formulação de critérios para avaliação de eficácia e a elaboração de protocolos de uso aplicáveis tanto a implementações pontuais quanto a estudos de caso de maior escala. Dando continuidade, delineiam-se os fundamentos de Machine Learning e Deep Learning que sustentam o modelo conceitual.
               </p>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg">
@@ -78,7 +79,7 @@ const ModelPage = () => {
           <div className="text-center mb-12">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Modelo Conceitual de AVEA com IA</h3>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto mb-8">
-              O modelo resultante organiza-se em quatro dimensões: personalização, engajamento, monitoramento e análise de desempenho, que reúnem processos e funcionalidades orientadas à mediação pedagógica com suporte da IA.
+              O modelo resultante organiza-se em quatro dimensões: personalização, engajamento, monitoramento e análise de desempenho, que reúnem processos e funcionalidades orientadas às relações de ensino e aprendizagem com suporte da IA.
             </p>
           </div>
           <div className="bg-gray-100 p-8 rounded-lg">
